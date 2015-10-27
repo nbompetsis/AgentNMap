@@ -26,7 +26,9 @@ class FileParserReader:
             print("Could not convert data to an integer.")
         except:
             print("Unexpected error:", sys.exc_info()[0])
-   
+        else:
+            print arg, 'has', len(self.file.readlines()), 'lines'
+            self.file.close()
 
     def getListOfJobs(self):
         jobsList = []
