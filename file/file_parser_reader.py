@@ -1,4 +1,4 @@
-from data_structures.NMapJobsStructure import NMapJobsStructure
+from structures.NMapJobsStructure import NMapJobsStructure
 import sys
 
 
